@@ -1,0 +1,58 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset
+dataset/
+
+# YOLO training outputs
+runs/
+
+# YOLO model files
+*.pt
+
+# SQLite database
+detections/*.db
+
+# Backup databases
+detections/*backup*.db
+
+# Generated detection images
+detections/*.jpg
+detections/*.png
+
+# Generated screenshots
+screenshots/*.jpg
+screenshots/*.jpeg
+screenshots/*.png
+
+# Python temporary files
+*.tmp
+
+# Environment files
+.env
+.env.*
+
+# Node modules
+frontend/node_modules/
+
+# Frontend build files
+frontend/dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
